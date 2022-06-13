@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container" id="mycontainer">
+        <div class="sidebar sidebargo">
+
+
+            <nav>
+                <ul>
+                    <li><a href="/"> Home</a></li>
+                    <li><a href="/intro.html"> My intro </a></li>
+                    <!-- <li><a href="/services.html"> Servises</a></li> -->
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/blog.html"> blog</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="bg">
+
+
+                <div class="hamburger">
+                    <img class="ham"  src="/menu.png" alt="" width="23">
+                    <img class="cross" src="/close.webp" alt="" width="23">
+
+                </div>
+                <div class="infocontainer">
+                    <div class="devinfo">
+                        <div class="hello" id="iam">I am </div>
+                        <div class="name" id="tejas">Tejas Giri </div>
+                        <div class="about" id="developer">Developer, Programmer</div>
+                        <div class="moreabout" id="moreaboutid"></div>
+
+                        <div class="buttons">
+
+                            <a href="resume.pdf" target="_blank"><button class="btn">Download Resume </button></a>
+                            <a href="/contact.html"><button class="btn">Contact Me</button></a>
+
+                        </div>
+
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="devpic"><img src="/profile photo.jpeg" alt="" data-aos="fade-left">
+        </div>
+        </div>
+    </div>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

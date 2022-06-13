@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li><a href="/"> Home</a></li>
+                    <li><a href="/intro.html"> My intro </a></li>
+                    <!-- <li><a href="/services.html"> Servises</a></li> -->
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/blog.html"> blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="/menu.png" alt="" width="23">
+                <img class="cross" src="/close.webp" alt="" width="23">
+
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work/General Queries</h1>
+                <form>
+                    <div class="mb-3 flex">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" />
+                    </div>
+
+                    <div class="mb-3 flex">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" />
+                        <div id="emailHelp" class="form-text">
+                            We'll never share your email with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3 flex">
+                        <label for="clientphone" class="form-label">Mobile Number</label>
+                        <input type="phone" class="form-control" id="clientphone" />
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient" />
+                        <label class="form-check-label" for="isClient">I want to hire me</label>
+                    </div>
+
+                    <div class="mb-4 enquiry">
+                        <label for="enquiry">Your Enquiry</label>
+                        <textarea name="enquiry" id="enquiry" cols="45" rows="5"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+
+</html>
